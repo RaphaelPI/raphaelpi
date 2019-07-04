@@ -55,7 +55,7 @@ export default () => {
           <div>
             <h3>Depuis Septembre 2011 | <a href="https://www.adelya.com/fr/" >Adelya</a></h3>
             <p>
-              Ingénieur R&D, Référent front<br />
+              Ingénieur R&D, Lead Front-end<br />
               React.js & JAVA
             </p>
           </div>

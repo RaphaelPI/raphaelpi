@@ -939,6 +939,17 @@
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+			> div {
+				animation: HeaderAnimation 0.2s linear;
+				animation-fill-mode: both;
+				position: relative;
+			}
+
+			@for $i from 1 through 1000 {
+				> div:nth-child(#{$i}) {
+					animation-delay: .1s * $i;
+				}
+			}
 		}
 
 		.image.avatar {
@@ -1544,6 +1555,21 @@
   75% {
     opacity: 0.5;
     right: 0px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// Keyframe animation
+@keyframes HeaderAnimation {
+  0% {
+    opacity: 0;
+    top: 200px;
+  }
+  75% {
+    opacity: 0.5;
+    top: 0px;
   }
   100% {
     opacity: 1;

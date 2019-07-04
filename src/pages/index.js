@@ -98,7 +98,7 @@ class HomeIndex extends React.Component {
             </div>
           </section>
 
-          <section id="two">
+          {/* <section id="two">
             <h2>Derniers projets</h2>
             <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
               src,
@@ -106,7 +106,7 @@ class HomeIndex extends React.Component {
               caption,
               description
             }))} />
-          </section>
+          </section> */}
 
         </div>
 
