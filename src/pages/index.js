@@ -20,8 +20,8 @@ import full02 from '../assets/images/fulls/02.png'
 // import full06 from '../assets/images/fulls/06.jpg'
 
 const DEFAULT_IMAGES = [
-  { id: '1', src: full01, thumbnail: full01, caption: 'Hinterland', description: 'React.js, Contentful & Gatsby & Netlify' },
-  { id: '2', src: full02, thumbnail: full02, caption: 'Virtuall Play', description: 'React.js, Ghost CMS & Digital Ocean' },
+  { id: '1', src: full01, thumbnail: full01, caption: 'Hinterland', description: <div>React.js, Contentful & Gatsby & Netlify<br/><a href="https://sad-galileo-b107f6.netlify.com/hinterland" >https://sad-galileo-b107f6.netlify.com/hinterland</a></div>},
+  { id: '2', src: full02, thumbnail: full02, caption: 'Virtuall Play', description: <div>React.js, Ghost CMS & Digital Ocean<br/><a href="http://www.virtuallplay.com/" >http://www.virtuallplay.com/</a></div> },
 ]
 // const DEFAULT_IMAGES = []
 
