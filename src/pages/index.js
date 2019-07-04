@@ -85,11 +85,6 @@ class HomeIndex extends React.Component {
         <div id="main">
           <Nav />
           <section id="one">
-            <header className="major">
-              <h2>
-                Vivre & coder
-              </h2>
-            </header>
             <div>
               <p>
               Passionné par le code depuis toujours, je suis un développeur front-end accompli ayant une expérience partagée entre le travail d'équipe au sein d'une entreprise et le travail solitaire en freelance.
