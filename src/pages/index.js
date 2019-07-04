@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
+import Nav from '../components/Nav'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
@@ -81,23 +82,25 @@ class HomeIndex extends React.Component {
           <title>{siteTitle}</title>
           <meta name="description" content={siteDescription} />
         </Helmet>
-
         <div id="main">
+          <Nav />
           <section id="one">
             <header className="major">
               <h2>
                 Vivre & coder
               </h2>
             </header>
-            <p>
-            Passionné par le code depuis toujours, je suis un développeur front-end accompli ayant une expérience partagée entre le travail d'équipe au sein d'une entreprise et le travail solitaire en freelance.
-            </p>
-            <p>
-            Depuis plus de 10 ans, je suis toujours aussi séduit par ce métier qui permet de toujours se remettre en question, faire des rencontres, apprendre et faire évoluer mes compétences au rythme de l'apparition de nouvelles technologies.
-            </p>
-            <p>
-            Dont React.js et son envirronement qui reste mon jouet préféré.
-            </p>
+            <div>
+              <p>
+              Passionné par le code depuis toujours, je suis un développeur front-end accompli ayant une expérience partagée entre le travail d'équipe au sein d'une entreprise et le travail solitaire en freelance.
+              </p>
+              <p>
+              Depuis plus de 10 ans, je suis toujours aussi séduit par ce métier qui permet de toujours se remettre en question, faire des rencontres, apprendre et faire évoluer mes compétences au rythme de l'apparition de nouvelles technologies.
+              </p>
+              <p>
+              Dont React.js et son envirronement qui reste mon jouet préféré.
+              </p>
+            </div>
           </section>
 
           <section id="two">

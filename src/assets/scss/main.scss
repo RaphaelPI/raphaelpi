@@ -990,8 +990,9 @@
 	#main {
 		margin-left: $size-header-width;
 		max-width: 50em + $size-header-pad;
-		padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+		padding: 0em $size-header-pad $size-header-pad $size-header-pad;
 		width: calc(100% - #{$size-header-width});
+		overflow: hidden;
 
 		> section {
 			border-top: solid 2px _palette(border);
@@ -1002,6 +1003,42 @@
 				border-top: 0;
 				margin-top: 0;
 				padding-top: 0;
+			}
+
+			> div {
+				animation: EventAnimation 0.4s linear;
+				animation-fill-mode: both;
+				position: relative;
+			}
+
+			@for $i from 1 through 1000 {
+				> div:nth-child(#{$i}) {
+					animation-delay: .1s * $i;
+				}
+			}
+		}
+
+		.main-nav {
+			list-style: none;
+			margin: 0 auto;
+			display: flex;
+			padding: 0;
+			max-width: 1500px;
+
+			li {
+				width: 50%;
+				text-align: center;
+				padding: 10px;
+
+				a {
+					color: #000000;
+					text-decoration: none;
+					letter-spacing: 0.15em;
+					position: relative;
+					text-transform: uppercase;
+					font-size: 0.8em;
+					font-weight: bold;
+				}
 			}
 		}
 	}
@@ -1229,7 +1266,7 @@
 			#main {
 				margin-left: $size-header-width;
 				max-width: none;
-				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+				padding: 0em $size-header-pad $size-header-pad $size-header-pad;
 				width: calc(100% - #{$size-header-width});
 			}
 
@@ -1315,7 +1352,7 @@
 
 			#main {
 				margin: 0;
-				padding: ($size-header-pad * 1.5) $size-header-pad;
+				padding: 0em $size-header-pad;
 				width: 100%;
 			}
 
@@ -1496,4 +1533,19 @@
 	.\34 u24 {
 		width: 100%;
 	}
+}
+
+// Keyframe animation
+@keyframes EventAnimation {
+  0% {
+    opacity: 0;
+    right: -500px;
+  }
+  75% {
+    opacity: 0.5;
+    right: 0px;
+  }
+  100% {
+    opacity: 1;
+  }
 }
