@@ -20,7 +20,7 @@ export default () => {
         <section id="one">
           <header className="major">
             <h2>
-              Freelance
+              Expérience
               </h2>
           </header>
           <div>
@@ -47,16 +47,15 @@ export default () => {
             React & React Native
             </p>
           </div>
-          <header className="major">
-            <h2>
-              Salarié
-              </h2>
-          </header>
           <div>
             <h3>Depuis Septembre 2011 | <a href="https://www.adelya.com/fr/" >Adelya</a></h3>
             <p>
               Ingénieur R&D, Lead Front-end<br />
-              React.js & JAVA
+              Migration d'une application B2B J2EE vers des composants React<br />
+              Création d'espace client B2C intégrable dans des sites tiers<br />
+              Réalisation d'une API GraphQL<br />
+              React.js & Redux & JQuery & Bootstrap<br />
+              Java & MySQL & Maven
             </p>
           </div>
           <header className="major">

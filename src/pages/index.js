@@ -87,7 +87,7 @@ class HomeIndex extends React.Component {
           <section id="one">
             <div>
               <p>
-              Passionné par le code depuis toujours, je suis un développeur front-end accompli ayant une expérience partagée entre le travail d'équipe au sein d'une entreprise et le travail solitaire en freelance.
+              Passionné par le code depuis toujours, je suis un développeur front-end accompli ayant une expérience partagée entre le travail d'équipe au sein d'une entreprise et le travail en freelance.
               </p>
               <p>
               Depuis plus de 10 ans, je suis toujours aussi séduit par ce métier qui permet de toujours se remettre en question, faire des rencontres, apprendre et faire évoluer mes compétences au rythme de l'apparition de nouvelles technologies.
