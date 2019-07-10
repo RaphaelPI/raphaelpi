@@ -24,7 +24,7 @@ export default () => {
               </h2>
           </header>
           <div>
-            <h3>Janvier 2019 - Juillet 2019 | <a href="https://sad-galileo-b107f6.netlify.com/hinterland" >Hinterland</a></h3>
+            <h3>Janvier 2019 - Juillet 2019 | <a href="https://hinterland.netlify.com/hinterland" >Hinterland</a></h3>
             <p>
               Site de présentation d'un collectif d'artistes francais<br />
               Architecte & développeur<br />
@@ -51,11 +51,15 @@ export default () => {
             <h3>Depuis Septembre 2011 | <a href="https://www.adelya.com/fr/" >Adelya</a></h3>
             <p>
               Ingénieur R&D, Lead Front-end<br />
-              Migration d'une application B2B J2EE vers des composants React<br />
-              Création d'espace client B2C intégrable dans des sites tiers<br />
-              Réalisation d'une API GraphQL<br />
-              React.js & Redux & JQuery & Bootstrap<br />
-              Java & MySQL & Maven
+              React.js & Redux & Material UI & JQuery & Bootstrap<br />
+              Java & MySQL & Maven<br />
+              <ul>
+                <li>Migration d'une application B2B J2EE vers des composants React</li>
+                <li>Création d'interface de filtre pour requétage complexe. (Usage pour métiers du Marketing)</li>
+                <li>Email builder</li>
+                <li>Réalisation API GraphQL</li>
+                <li>Création d'espace client B2C intégrable dans des sites tiers</li>
+              </ul>              
             </p>
           </div>
           <header className="major">
