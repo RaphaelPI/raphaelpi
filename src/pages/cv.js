@@ -52,7 +52,7 @@ export default () => {
             <p>
               Ingénieur R&D, Lead Front-end<br />
               React.js & Redux & Material UI & JQuery & Bootstrap<br />
-              Java & MySQL & Maven<br />
+              Java & Hibernate & MySQL & Maven<br />
               <ul>
                 <li>Migration d'une application B2B J2EE vers des composants React</li>
                 <li>Création d'interface de filtre pour requétage complexe. (Usage pour métiers du Marketing)</li>

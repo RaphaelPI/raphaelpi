@@ -86,11 +86,14 @@ class HomeIndex extends React.Component {
               Dont React.js et son environnement qui reste mon jouet préféré.
               </p>
             </div>
+            <div style={{textAlign: 'center'}} >
+              <a href="https://www.malt.fr/profile/raphaelpi">Demander un devis</a>
+            </div>
+            <br /><br />
+            <div>
+              #Javascript  #Node   #React  #Redux  #Gatsby  #Ghost  #MaterialUI  #Contentful  #JSON  #CSS  #Java  #MySQL  #Hibernate
+            </div>
           </section>
-          <section>
-            #Javascript  #Node  #React  #Redux  #Gatsby  #Ghost  #MaterialUI  #Contentful  #JSON  #CSS  #Java  #MySQL
-          </section>
-
           {/* <section id="two">
             <h2>Derniers projets</h2>
             <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
