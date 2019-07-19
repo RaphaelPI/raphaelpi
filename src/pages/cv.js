@@ -24,21 +24,21 @@ export default () => {
               </h2>
           </header>
           <div>
-            <h3>Janvier 2019 - Juillet 2019 | <a href="https://sad-galileo-b107f6.netlify.com/hinterland" >Hinterland</a></h3>
+            <h3>Juillet 2019 - ??? (en cours) | <a href="https://sad-galileo-b107f6.netlify.com/hinterland" >Hinterland</a></h3>
             <p>
               Site de présentation d'un collectif d'artistes francais<br />
               Architecte & développeur<br />
               Gatsby & Contentful & Netlify
             </p>
           </div>
-          <div>
+          {/* <div>
             <h3>Mai 2018 - Juin 2018 | <a href="http://www.virtuallplay.com" >Virtuallplay</a></h3>
             <p>
               Site professionel pour une salle de réalité virtuelle à Bayonne<br />
               Architecte & développeur<br />
               Ghost & DigitalOcean
             </p>
-          </div>
+          </div> */}
           <div>
             <h3>Septembre 2017 - Octobre 2017 | WeDo+</h3>
             <p>

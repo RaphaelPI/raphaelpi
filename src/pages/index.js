@@ -87,13 +87,13 @@ class HomeIndex extends React.Component {
           <section id="one">
             <div>
               <p style={{color: "#333"}}>
-              Je suis un développeur front-end accompli ayant une expérience partagée entre le travail d'équipe au sein d'une entreprise et le travail en freelance.
+              Je suis un développeur fullstack spécialisé front-end. J'ai une expérience partagée entre le travail d'équipe au sein d'une entreprise et le travail en freelance.
               </p>
               <p style={{color: "#333"}}>
-              Depuis plus de 10 ans, je suis toujours aussi séduit par ce métier qui permet de toujours se remettre en question, faire des rencontres, apprendre et faire évoluer mes compétences au rythme de l'apparition de nouvelles technologies.
+              Depuis plus de 10 ans, je suis toujours aussi séduit par ce métier qui permet de constament se renouveler, faire des rencontres, apprendre et faire évoluer mes compétences au rythme de l'apparition de nouvelles technologies.
               </p>
               <p style={{color: "#333"}}>
-              Dont React.js et son environnement qui reste mon jouet préféré.
+              React.js et son environnement restent mes jouets préférés.
               </p>
             </div>
           </section>
