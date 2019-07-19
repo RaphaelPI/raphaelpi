@@ -4,26 +4,16 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
 // import Lightbox from 'react-images'
-import Gallery from '../components/Gallery'
+// import Gallery from '../components/Gallery'
 
-// import thumb01 from '../assets/images/thumbs/01.jpg'
-// import thumb02 from '../assets/images/thumbs/02.jpg'
-// import thumb03 from '../assets/images/thumbs/03.jpg'
-// import thumb04 from '../assets/images/thumbs/04.jpg'
-// import thumb05 from '../assets/images/thumbs/05.jpg'
-// import thumb06 from '../assets/images/thumbs/06.jpg'
+// import full01 from '../assets/images/fulls/01.png'
+// import full02 from '../assets/images/fulls/02.png'
 
-import full01 from '../assets/images/fulls/01.png'
-import full02 from '../assets/images/fulls/02.png'
-// import full03 from '../assets/images/fulls/03.jpg'
-// import full04 from '../assets/images/fulls/04.jpg'
-// import full05 from '../assets/images/fulls/05.jpg'
-// import full06 from '../assets/images/fulls/06.jpg'
 
-const DEFAULT_IMAGES = [
-  { id: '1', src: full01, thumbnail: full01, caption: 'Hinterland', description: <div>React.js, Contentful & Gatsby & Netlify<br/><a href="https://sad-galileo-b107f6.netlify.com/hinterland" >https://sad-galileo-b107f6.netlify.com/hinterland</a></div>},
-  { id: '2', src: full02, thumbnail: full02, caption: 'Virtuall Play', description: <div>React.js, Ghost CMS & Digital Ocean<br/><a href="http://www.virtuallplay.com/" >http://www.virtuallplay.com/</a></div> },
-]
+// const DEFAULT_IMAGES = [
+//   { id: '1', src: full01, thumbnail: full01, caption: 'Hinterland', description: <div>React.js, Contentful & Gatsby & Netlify<br/><a href="https://sad-galileo-b107f6.netlify.com/hinterland" >https://sad-galileo-b107f6.netlify.com/hinterland</a></div>},
+//   { id: '2', src: full02, thumbnail: full02, caption: 'Virtuall Play', description: <div>React.js, Ghost CMS & Digital Ocean<br/><a href="http://www.virtuallplay.com/" >http://www.virtuallplay.com/</a></div> },
+// ]
 // const DEFAULT_IMAGES = []
 
 class HomeIndex extends React.Component {
@@ -96,8 +86,14 @@ class HomeIndex extends React.Component {
               React.js et son environnement restent mes jouets préférés.
               </p>
             </div>
+            <div style={{textAlign: 'center'}} >
+              <a href="https://www.malt.fr/profile/raphaelpi">Demander un devis</a>
+            </div>
+            <br /><br />
+            <div>
+              #Javascript  #Node   #React  #Redux  #Gatsby  #Ghost  #MaterialUI  #Contentful  #JSON  #CSS  #Java  #MySQL  #Hibernate
+            </div>
           </section>
-
           {/* <section id="two">
             <h2>Derniers projets</h2>
             <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
