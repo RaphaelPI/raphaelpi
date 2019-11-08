@@ -8,7 +8,7 @@ export default () => {
         <Link to="/">Accueil</Link>
       </li>
       <li>
-        <Link to="/cv">Cv</Link>
+        <a href="https://www.malt.fr/profile/raphaelpi">Raphaël PI</a>
       </li>
     </ul>
   )
